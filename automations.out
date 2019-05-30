@@ -1,0 +1,151 @@
+2019-03-19 22:03:563 INFO  TestBase : 133 - Initialize WebDriver 1324829744
+2019-03-19 22:03:567 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-19 22:03:574 INFO  WaitHelper : 35 - setting implicit wait to 120
+2019-03-19 22:03:574 INFO  WaitHelper : 99 - waiting for the page to load for : 100 seconds
+2019-03-19 22:03:578 INFO  WaitHelper : 101 - page has been loaded
+2019-03-19 22:03:64 INFO  TestBase : 190 - Navigating to : https://www.amazon.com
+2019-03-19 22:03:86 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-19 22:03:112 INFO  WaitHelper : 106 - Waiting for element - [[ChromeDriver: chrome on MAC (c80c3b1639019a4ee00ca9c2bb73c970)] -> xpath: //span[contains(text(),'Hello')]] for - 100 seconds
+2019-03-19 22:03:163 INFO  WaitHelper : 109 - Element - [[ChromeDriver: chrome on MAC (c80c3b1639019a4ee00ca9c2bb73c970)] -> xpath: //span[contains(text(),'Hello')]] is visible now
+2019-03-19 22:03:164 INFO  TestBase : 173 - capturing screenshot
+2019-03-19 22:03:942 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-19 22:03:962 INFO  WaitHelper : 106 - Waiting for element - [[ChromeDriver: chrome on MAC (c80c3b1639019a4ee00ca9c2bb73c970)] -> xpath: //h1[contains(text(),'Sign in')]] for - 100 seconds
+2019-03-19 22:03:990 INFO  WaitHelper : 109 - Element - [[ChromeDriver: chrome on MAC (c80c3b1639019a4ee00ca9c2bb73c970)] -> xpath: //h1[contains(text(),'Sign in')]] is visible now
+2019-03-19 22:03:990 INFO  TestBase : 173 - capturing screenshot
+2019-03-19 22:03:434 INFO  SignInPage : 53 - Entering email - test@gmail.com
+2019-03-19 22:03:569 INFO  SignInPage : 59 - Entering password - admin
+2019-03-19 22:03:627 INFO  SignInPage : 65 - Clicking on sign in button
+2019-03-19 22:03:576 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 14:03:543 INFO  TestBase : 125 - The driver executable does not exist: E:\Local_Drive\Automation\Contributor\AmazonFramework\src\main\resources\drivers\chromedriver.exe
+2019-03-20 14:03:199 INFO  TestBase : 133 - Initialize WebDriver 949684105
+2019-03-20 14:03:207 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 14:03:217 INFO  WaitHelper : 35 - setting implicit wait to 120
+2019-03-20 14:03:217 INFO  WaitHelper : 99 - waiting for the page to load for : 100 seconds
+2019-03-20 14:03:222 INFO  WaitHelper : 101 - page has been loaded
+2019-03-20 14:03:705 INFO  TestBase : 190 - Navigating to : https://www.amazon.com
+2019-03-20 14:03:736 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 14:03:818 INFO  WaitHelper : 106 - Waiting for element - [[ChromeDriver: chrome on XP (1090845f2d220ba9d3e14e83f12876e4)] -> xpath: //span[contains(text(),'Hello')]] for - 100 seconds
+2019-03-20 14:03:134 INFO  WaitHelper : 109 - Element - [[ChromeDriver: chrome on XP (1090845f2d220ba9d3e14e83f12876e4)] -> xpath: //span[contains(text(),'Hello')]] is visible now
+2019-03-20 14:03:135 INFO  TestBase : 173 - capturing screenshot
+2019-03-20 14:03:184 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 14:03:211 INFO  WaitHelper : 106 - Waiting for element - [[ChromeDriver: chrome on XP (1090845f2d220ba9d3e14e83f12876e4)] -> xpath: //h1[contains(text(),'Sign in')]] for - 100 seconds
+2019-03-20 14:03:246 INFO  WaitHelper : 109 - Element - [[ChromeDriver: chrome on XP (1090845f2d220ba9d3e14e83f12876e4)] -> xpath: //h1[contains(text(),'Sign in')]] is visible now
+2019-03-20 14:03:247 INFO  TestBase : 173 - capturing screenshot
+2019-03-20 14:03:566 INFO  SignInPage : 53 - Entering email - test@gmail.com
+2019-03-20 14:03:814 INFO  SignInPage : 59 - Entering password - admin
+2019-03-20 14:03:21 INFO  SignInPage : 65 - Clicking on sign in button
+2019-03-20 14:03:308 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 14:03:332 INFO  WaitHelper : 106 - Waiting for element - Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='nav-shop']/a' for - 100 seconds
+2019-03-20 15:03:175 INFO  TestBase : 133 - Initialize WebDriver 949684105
+2019-03-20 15:03:181 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 15:03:188 INFO  WaitHelper : 35 - setting implicit wait to 120
+2019-03-20 15:03:189 INFO  WaitHelper : 99 - waiting for the page to load for : 100 seconds
+2019-03-20 15:03:193 INFO  WaitHelper : 101 - page has been loaded
+2019-03-20 15:03:133 INFO  TestBase : 190 - Navigating to : https://www.amazon.com
+2019-03-20 15:03:160 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 15:03:230 INFO  WaitHelper : 106 - Waiting for element - [[ChromeDriver: chrome on XP (df5832a7ad661e08ff4dc35b6f1a7132)] -> xpath: //span[contains(text(),'Hello')]] for - 100 seconds
+2019-03-20 15:03:617 INFO  WaitHelper : 109 - Element - [[ChromeDriver: chrome on XP (df5832a7ad661e08ff4dc35b6f1a7132)] -> xpath: //span[contains(text(),'Hello')]] is visible now
+2019-03-20 15:03:617 INFO  TestBase : 173 - capturing screenshot
+2019-03-20 15:03:497 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 15:03:527 INFO  WaitHelper : 106 - Waiting for element - [[ChromeDriver: chrome on XP (df5832a7ad661e08ff4dc35b6f1a7132)] -> xpath: //h1[contains(text(),'Sign in')]] for - 100 seconds
+2019-03-20 15:03:570 INFO  WaitHelper : 109 - Element - [[ChromeDriver: chrome on XP (df5832a7ad661e08ff4dc35b6f1a7132)] -> xpath: //h1[contains(text(),'Sign in')]] is visible now
+2019-03-20 15:03:570 INFO  TestBase : 173 - capturing screenshot
+2019-03-20 15:03:876 INFO  SignInPage : 53 - Entering email - thaveeshadarshana@gmail.com
+2019-03-20 15:03:149 INFO  SignInPage : 59 - Entering password - User@123
+2019-03-20 15:03:283 INFO  SignInPage : 65 - Clicking on sign in button
+2019-03-20 15:03:888 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 15:03:290 INFO  WaitHelper : 106 - Waiting for element - [[ChromeDriver: chrome on XP (df5832a7ad661e08ff4dc35b6f1a7132)] -> xpath: //*[@id='nav-shop']/a] for - 100 seconds
+2019-03-20 15:03:826 INFO  WaitHelper : 109 - Element - [[ChromeDriver: chrome on XP (df5832a7ad661e08ff4dc35b6f1a7132)] -> xpath: //*[@id='nav-shop']/a] is visible now
+2019-03-20 15:03:908 INFO  VerificationHelper : 23 - Element is displayed Hello, Darshana
+2019-03-20 15:03:873 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 15:03:315 INFO  WaitHelper : 106 - Waiting for element - [[ChromeDriver: chrome on XP (df5832a7ad661e08ff4dc35b6f1a7132)] -> xpath: //*[@id="merchandised-content"]/div/div/h1] for - 100 seconds
+2019-03-20 15:03:345 INFO  WaitHelper : 109 - Element - [[ChromeDriver: chrome on XP (df5832a7ad661e08ff4dc35b6f1a7132)] -> xpath: //*[@id="merchandised-content"]/div/div/h1] is visible now
+2019-03-20 15:03:346 INFO  DepartmentPage : 41 - DepartmentPage object created
+2019-03-20 15:03:346 INFO  TestBase : 173 - capturing screenshot
+2019-03-20 15:03:734 INFO  DepartmentPage : 47 - scrolling to category - NURSERY
+2019-03-20 15:03:737 INFO  JavascriptHelper : 18 - javascript helper has been initialized
+2019-03-20 15:03:830 INFO  JavascriptHelper : 47 - scroll till web element
+2019-03-20 15:03:865 INFO  DepartmentPage : 52 - Clicking on category - NURSERY
+2019-03-20 15:03:372 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 15:03:560 INFO  WaitHelper : 106 - Waiting for element - Proxy element for: DefaultElementLocator 'By.xpath: //span[@id='s-result-count']' for - 100 seconds
+2019-03-20 15:03:895 INFO  TestBase : 134 - Initialize WebDriver 1697752980
+2019-03-20 15:03:899 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 15:03:903 INFO  WaitHelper : 35 - setting implicit wait to 120
+2019-03-20 15:03:903 INFO  WaitHelper : 99 - waiting for the page to load for : 100 seconds
+2019-03-20 15:03:908 INFO  WaitHelper : 101 - page has been loaded
+2019-03-20 15:03:548 INFO  TestBase : 191 - Navigating to : https://www.amazon.com
+2019-03-20 15:03:571 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 15:03:645 INFO  WaitHelper : 106 - Waiting for element - [[ChromeDriver: chrome on XP (22a7964446551269fda9515840bd7799)] -> xpath: //span[contains(text(),'Hello')]] for - 100 seconds
+2019-03-20 15:03:174 INFO  WaitHelper : 109 - Element - [[ChromeDriver: chrome on XP (22a7964446551269fda9515840bd7799)] -> xpath: //span[contains(text(),'Hello')]] is visible now
+2019-03-20 15:03:174 INFO  TestBase : 174 - capturing screenshot
+2019-03-20 15:03:308 INFO  TestBase : 134 - Initialize WebDriver 949684105
+2019-03-20 15:03:312 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 15:03:320 INFO  WaitHelper : 35 - setting implicit wait to 120
+2019-03-20 15:03:320 INFO  WaitHelper : 99 - waiting for the page to load for : 100 seconds
+2019-03-20 15:03:324 INFO  WaitHelper : 101 - page has been loaded
+2019-03-20 15:03:956 INFO  TestBase : 191 - Navigating to : https://www.amazon.com
+2019-03-20 15:03:980 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 15:03:13 INFO  WaitHelper : 106 - Waiting for element - [[ChromeDriver: chrome on XP (52d7b401c33d44cce7496f5a24aeed99)] -> xpath: //span[contains(text(),'Hello')]] for - 100 seconds
+2019-03-20 15:03:369 INFO  WaitHelper : 109 - Element - [[ChromeDriver: chrome on XP (52d7b401c33d44cce7496f5a24aeed99)] -> xpath: //span[contains(text(),'Hello')]] is visible now
+2019-03-20 15:03:370 INFO  TestBase : 174 - capturing screenshot
+2019-03-20 15:03:169 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 15:03:194 INFO  WaitHelper : 106 - Waiting for element - [[ChromeDriver: chrome on XP (52d7b401c33d44cce7496f5a24aeed99)] -> xpath: //h1[contains(text(),'Sign in')]] for - 100 seconds
+2019-03-20 15:03:232 INFO  WaitHelper : 109 - Element - [[ChromeDriver: chrome on XP (52d7b401c33d44cce7496f5a24aeed99)] -> xpath: //h1[contains(text(),'Sign in')]] is visible now
+2019-03-20 15:03:232 INFO  TestBase : 174 - capturing screenshot
+2019-03-20 15:03:517 INFO  SignInPage : 53 - Entering email - thaveeshadarshana@gmail.com
+2019-03-20 15:03:763 INFO  SignInPage : 59 - Entering password - User@123
+2019-03-20 15:03:887 INFO  SignInPage : 65 - Clicking on sign in button
+2019-03-20 15:03:804 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 15:03:367 INFO  TestBase : 134 - Initialize WebDriver 949684105
+2019-03-20 15:03:372 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 15:03:381 INFO  WaitHelper : 35 - setting implicit wait to 120
+2019-03-20 15:03:382 INFO  WaitHelper : 99 - waiting for the page to load for : 100 seconds
+2019-03-20 15:03:387 INFO  WaitHelper : 101 - page has been loaded
+2019-03-20 15:03:955 INFO  TestBase : 192 - Navigating to : https://www.amazon.com
+2019-03-20 15:03:982 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 15:03:129 INFO  WaitHelper : 106 - Waiting for element - [[ChromeDriver: chrome on XP (ba3adbfabe022c5c4f6ac9f099b338c7)] -> xpath: //span[contains(text(),'Hello')]] for - 100 seconds
+2019-03-20 15:03:183 INFO  WaitHelper : 109 - Element - [[ChromeDriver: chrome on XP (ba3adbfabe022c5c4f6ac9f099b338c7)] -> xpath: //span[contains(text(),'Hello')]] is visible now
+2019-03-20 15:03:183 INFO  TestBase : 174 - capturing screenshot
+2019-03-20 15:03:259 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 15:03:299 INFO  WaitHelper : 106 - Waiting for element - [[ChromeDriver: chrome on XP (ba3adbfabe022c5c4f6ac9f099b338c7)] -> xpath: //h1[contains(text(),'Sign in')]] for - 100 seconds
+2019-03-20 15:03:340 INFO  WaitHelper : 109 - Element - [[ChromeDriver: chrome on XP (ba3adbfabe022c5c4f6ac9f099b338c7)] -> xpath: //h1[contains(text(),'Sign in')]] is visible now
+2019-03-20 15:03:341 INFO  TestBase : 174 - capturing screenshot
+2019-03-20 15:03:658 INFO  SignInPage : 53 - Entering email - thaveeshadarshana@gmail.com
+2019-03-20 15:03:964 INFO  SignInPage : 59 - Entering password - User@123
+2019-03-20 15:03:103 INFO  SignInPage : 65 - Clicking on sign in button
+2019-03-20 15:03:920 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 15:03:367 INFO  WaitHelper : 106 - Waiting for element - [[ChromeDriver: chrome on XP (ba3adbfabe022c5c4f6ac9f099b338c7)] -> xpath: //*[@id='nav-shop']/a] for - 100 seconds
+2019-03-20 15:03:468 INFO  WaitHelper : 109 - Element - [[ChromeDriver: chrome on XP (ba3adbfabe022c5c4f6ac9f099b338c7)] -> xpath: //*[@id='nav-shop']/a] is visible now
+2019-03-20 15:03:681 INFO  VerificationHelper : 23 - Element is displayed Hello, Darshana
+2019-03-20 15:03:474 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 15:03:950 INFO  WaitHelper : 106 - Waiting for element - [[ChromeDriver: chrome on XP (ba3adbfabe022c5c4f6ac9f099b338c7)] -> xpath: //*[@id="merchandised-content"]/div/div/h1] for - 100 seconds
+2019-03-20 15:03:29 INFO  WaitHelper : 109 - Element - [[ChromeDriver: chrome on XP (ba3adbfabe022c5c4f6ac9f099b338c7)] -> xpath: //*[@id="merchandised-content"]/div/div/h1] is visible now
+2019-03-20 15:03:30 INFO  DepartmentPage : 41 - DepartmentPage object created
+2019-03-20 15:03:30 INFO  TestBase : 174 - capturing screenshot
+2019-03-20 15:03:480 INFO  DepartmentPage : 47 - scrolling to category - NURSERY
+2019-03-20 15:03:481 INFO  JavascriptHelper : 18 - javascript helper has been initialized
+2019-03-20 15:03:496 INFO  JavascriptHelper : 47 - scroll till web element
+2019-03-20 15:03:519 INFO  DepartmentPage : 52 - Clicking on category - NURSERY
+2019-03-20 15:03:85 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 15:03:457 INFO  WaitHelper : 106 - Waiting for element - Proxy element for: DefaultElementLocator 'By.xpath: //span[@id='s-result-count']' for - 100 seconds
+2019-03-20 15:03:307 INFO  TestBase : 134 - Initialize WebDriver 949684105
+2019-03-20 15:03:310 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 15:03:316 INFO  WaitHelper : 35 - setting implicit wait to 10
+2019-03-20 15:03:316 INFO  WaitHelper : 99 - waiting for the page to load for : 100 seconds
+2019-03-20 15:03:320 INFO  WaitHelper : 101 - page has been loaded
+2019-03-20 15:03:215 INFO  TestBase : 192 - Navigating to : https://www.amazon.com
+2019-03-20 15:03:247 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 15:03:416 INFO  WaitHelper : 106 - Waiting for element - [[ChromeDriver: chrome on XP (84b685dd5ddc9ca04bbbb08e61df48f5)] -> xpath: //span[contains(text(),'Hello')]] for - 10 seconds
+2019-03-20 15:03:472 INFO  WaitHelper : 109 - Element - [[ChromeDriver: chrome on XP (84b685dd5ddc9ca04bbbb08e61df48f5)] -> xpath: //span[contains(text(),'Hello')]] is visible now
+2019-03-20 15:03:473 INFO  TestBase : 174 - capturing screenshot
+2019-03-20 15:03:336 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 15:03:359 INFO  WaitHelper : 106 - Waiting for element - [[ChromeDriver: chrome on XP (84b685dd5ddc9ca04bbbb08e61df48f5)] -> xpath: //h1[contains(text(),'Sign in')]] for - 10 seconds
+2019-03-20 15:03:432 INFO  WaitHelper : 109 - Element - [[ChromeDriver: chrome on XP (84b685dd5ddc9ca04bbbb08e61df48f5)] -> xpath: //h1[contains(text(),'Sign in')]] is visible now
+2019-03-20 15:03:432 INFO  TestBase : 174 - capturing screenshot
+2019-03-20 15:03:778 INFO  SignInPage : 53 - Entering email - thaveeshadarshana@gmail.com
+2019-03-20 15:03:57 INFO  SignInPage : 59 - Entering password - User@123
+2019-03-20 15:03:211 INFO  SignInPage : 65 - Clicking on sign in button
+2019-03-20 15:03:688 INFO  WaitHelper : 28 - WaitHelper object created
+2019-03-20 15:03:728 INFO  WaitHelper : 106 - Waiting for element - [[ChromeDriver: chrome on XP (84b685dd5ddc9ca04bbbb08e61df48f5)] -> xpath: //*[@id='nav-shop']/a] for - 10 seconds
+2019-03-20 15:03:772 INFO  WaitHelper : 109 - Element - [[ChromeDriver: chrome on XP (84b685dd5ddc9ca04bbbb08e61df48f5)] -> xpath: //*[@id='nav-shop']/a] is visible now
+2019-03-20 15:03:842 INFO  VerificationHelper : 23 - Element is displayed Hello, Darshana

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9200" started-at="2019-06-15T06:52:00Z" finished-at="2019-06-15T06:52:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9200" started-at="2019-06-15T06:52:00Z" finished-at="2019-06-15T06:52:09Z">
+      <class name="testcases.LinkTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.LinkTest@3b084709]" name="beforeSuite" is-config="true" duration-ms="184" started-at="2019-06-15T06:51:59Z" finished-at="2019-06-15T06:52:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.LinkTest@3b084709]" name="beforeTest" is-config="true" duration-ms="3559" started-at="2019-06-15T06:52:00Z" finished-at="2019-06-15T06:52:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.LinkTest@3b084709]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-06-15T06:52:03Z" finished-at="2019-06-15T06:52:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testcases.LinkTest@3b084709]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2019-06-15T06:52:03Z" finished-at="2019-06-15T06:52:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.LinkTest.logintest() throws java.lang.InterruptedException,java.net.MalformedURLException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="logintest()[pri:0, instance:testcases.LinkTest@3b084709]" name="logintest" duration-ms="4280" started-at="2019-06-15T06:52:03Z" finished-at="2019-06-15T06:52:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.LinkTest@3b084709]" name="afterMethod" is-config="true" duration-ms="685" started-at="2019-06-15T06:52:07Z" finished-at="2019-06-15T06:52:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logintest status=SUCCESS method=LinkTest.logintest()[pri:0, instance:testcases.LinkTest@3b084709] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.LinkTest@3b084709]" name="afterTest" is-config="true" duration-ms="644" started-at="2019-06-15T06:52:08Z" finished-at="2019-06-15T06:52:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.LinkTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

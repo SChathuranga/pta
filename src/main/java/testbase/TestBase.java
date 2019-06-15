@@ -3,6 +3,8 @@ package testbase;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.nio.file.Files;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -12,8 +14,10 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
@@ -27,7 +31,6 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
-
 import helper.browserconfiguration.BrowserType;
 import helper.browserconfiguration.ChromeBrowser;
 import helper.browserconfiguration.FirefoxBrowser;
@@ -36,6 +39,7 @@ import helper.browserconfiguration.config.PropertyReader;
 import helper.logger.LoggerHelper;
 import helper.resource.ResourceHelper;
 import helper.wait.WaitHelper;
+import io.appium.java_client.windows.WindowsDriver;
 import utils.ExtentManager;
 
 public class TestBase {
@@ -46,11 +50,13 @@ public class TestBase {
 	public WebDriver driver;
 	private Logger log = LoggerHelper.getLogger(TestBase.class);
 	public static File reportDirectory;
-	
+	 private static WindowsDriver Session = null;
+	private static WebElement element = null;
 	
 	@BeforeSuite
 	public void beforeSuite() {
 		extent = ExtentManager.getInstance();
+		
 	}
 	
 	@BeforeTest
@@ -194,5 +200,24 @@ public class TestBase {
 	}
 	
 	
+	
+	
+	public void OpenDesktopApp(String appstring) throws MalformedURLException{
+		// Set Config data
+				DesiredCapabilities capabilities = new DesiredCapabilities();
+				capabilities.setCapability("app", appstring);
+				Session = new WindowsDriver(new URL("http://127.0.0.1:4723"), capabilities);
+				Session.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+		
+	}
+	
+	public void Click_Desktop(String obj){
+		
+		Session.findElementByName(obj).click();
+	}
+	
+	public void Quite_DesktopSession(){
+		Session.quit();
+	}
 	
 }

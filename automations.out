@@ -149,3 +149,8 @@
 2019-03-20 15:03:728 INFO  WaitHelper : 106 - Waiting for element - [[ChromeDriver: chrome on XP (84b685dd5ddc9ca04bbbb08e61df48f5)] -> xpath: //*[@id='nav-shop']/a] for - 10 seconds
 2019-03-20 15:03:772 INFO  WaitHelper : 109 - Element - [[ChromeDriver: chrome on XP (84b685dd5ddc9ca04bbbb08e61df48f5)] -> xpath: //*[@id='nav-shop']/a] is visible now
 2019-03-20 15:03:842 INFO  VerificationHelper : 23 - Element is displayed Hello, Darshana
+2019-06-15 12:06:548 INFO  TestBase : 140 - Initialize WebDriver 736920911
+2019-06-15 12:06:552 INFO  WaitHelper : 28 - WaitHelper object created
+2019-06-15 12:06:562 INFO  WaitHelper : 35 - setting implicit wait to 10
+2019-06-15 12:06:562 INFO  WaitHelper : 99 - waiting for the page to load for : 100 seconds
+2019-06-15 12:06:567 INFO  WaitHelper : 101 - page has been loaded

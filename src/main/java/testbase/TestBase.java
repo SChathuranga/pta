@@ -54,14 +54,18 @@ public class TestBase {
 	private static WebElement element = null;
 	
 	@BeforeSuite
-	public void beforeSuite() {
+	public void beforeSuite() throws Exception {
 		extent = ExtentManager.getInstance();
-		
 	}
 	
 	@BeforeTest
 	public void beforeTest() throws Exception {
-		// reader is nothing but the reference of the interface  
+		// reader is nothing but the reference of the interface
+		//Runtime.getRuntime().exec("C:\\Program Files (x86)\\Windows Application Driver\\WinAppDriver.exe");
+		ProcessBuilder pb = new ProcessBuilder("cmd", "/c", "WinAppDriver.exe");
+		File dir = new File("C:\\Program Files (x86)\\Windows Application Driver\\");
+		pb.directory(dir);
+		Process p = pb.start();
 		ObjectReader.reader = new PropertyReader();
 		reportDirectory = new File(ResourceHelper.getResourcePath("/resources/screenshots"));
 		setUpDriver(ObjectReader.reader.getBrowserType());

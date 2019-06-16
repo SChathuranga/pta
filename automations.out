@@ -154,3 +154,8 @@
 2019-06-15 12:06:562 INFO  WaitHelper : 35 - setting implicit wait to 10
 2019-06-15 12:06:562 INFO  WaitHelper : 99 - waiting for the page to load for : 100 seconds
 2019-06-15 12:06:567 INFO  WaitHelper : 101 - page has been loaded
+2019-06-16 09:06:74 INFO  TestBase : 140 - Initialize WebDriver 116734858
+2019-06-16 09:06:79 INFO  WaitHelper : 28 - WaitHelper object created
+2019-06-16 09:06:107 INFO  WaitHelper : 35 - setting implicit wait to 10
+2019-06-16 09:06:108 INFO  WaitHelper : 99 - waiting for the page to load for : 100 seconds
+2019-06-16 09:06:123 INFO  WaitHelper : 101 - page has been loaded
